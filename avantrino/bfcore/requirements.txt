@@ -10,6 +10,7 @@ anyjson==0.3.3
 #apt-xapian-index==0.45
 argparse==1.2.1
 backports.ssl-match-hostname==3.4.0.2
+blinker
 celery==3.1.17
 certifi==14.05.14
 characteristic==14.3.0
