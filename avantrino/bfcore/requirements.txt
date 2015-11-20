@@ -87,6 +87,7 @@ oauthlib==0.7.2
 #oneconf==0.3.7
 openpyxl==1.7.0
 #pandas==0.13.1
+py2-ipaddress
 paramiko==1.15.2
 #paramiko-expect==0.2
 patsy==0.2.1
