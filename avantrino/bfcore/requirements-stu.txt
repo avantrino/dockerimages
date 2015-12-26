@@ -1,0 +1,13 @@
+selenium==2.44.0
+service-identity==14.0.0
+setuptools-git==1.0b1
+simplejson==3.3.1
+six==1.5.2
+sorl-thumbnail==12.2
+sqlparse==0.1.14
+ssh-import-id==3.21
+texttable==0.8.4
+tox==1.9.0
+tzlocal==1.2
+uritemplate==0.5.2
+urllib3==1.7.1
