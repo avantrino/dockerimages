@@ -27,6 +27,7 @@ RUN apt-get update && apt-get install -y python2.7 python-setuptools build-essen
 		      sqlite3 \
 		      gcc \
 		      python-mysqldb \
+		      rsync snmp \
                       --no-install-recommends && rm -rf /var/lib/apt/lists/*  
 
 #Copy Python dependencies, Note that any PATH is relative to Context Directory
