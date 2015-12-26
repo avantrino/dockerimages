@@ -8,8 +8,9 @@ RUN mkdir /mybluefish
 #From now on all operations will happen from here
 WORKDIR /mybluefish
 
-#Update the mongodb3.0 repo details
+#Update the mongodb3.0 repo details and respective public key
 RUN echo "deb http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.0 multiverse" > /etc/apt/sources.list.d/mongodb-org-3.0.list
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 
 #Updates the repository packages list and Install required dependencies
 #Install Python dependencies
