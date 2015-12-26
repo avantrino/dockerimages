@@ -22,7 +22,11 @@ RUN apt-get update && apt-get install -y python2.7 python-setuptools build-essen
             		      libcurl4-gnutls-dev librtmp-dev gfortran python-numpy cython libcurl4-gnutls-dev \
             		      openssh-server sshpass \
             		      python-pandas \
+            		      python-scipy \
             		      python-matplotlib \
+            		      python-statsmodels \
+            		      python-sklearn \
+            		      python-tables \
             		      mysql-client libmysqlclient-dev \
             		      postgresql-client libpq-dev \
             		      mongodb-org-shell mongodb-org-tools \
