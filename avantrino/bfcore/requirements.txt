@@ -53,14 +53,16 @@ django-treebeard==3.0
 #django-widgy==0.3.5
 djangotoolbox==1.6.2
 #duplicity==0.6.23
+dnspython
 easy-thumbnails==2.2
 ecdsa==0.11
 env-excavator==1.2.0
+eventlet
 filebrowser-safe==0.3.8
 flower==0.7.3
 future==0.9.0
 #gbp==0.6.9
-gevent==1.0.1
+gevent
 google-api-python-client==1.2
 grappelli-safe==0.3.13
 greenlet==0.4.5
@@ -96,6 +98,7 @@ phonenumbers==7.0.2
 piston-mini-client==0.7.5
 psutil==2.2.1
 py==1.4.26
+pyinotify
 pyOpenSSL==0.13
 pyScss==1.2.1
 pyasn1==0.1.9
@@ -122,8 +125,9 @@ pyxdg==0.25
 queuelib==1.2.2
 redis==2.10.3
 reportlab==3.0
-requests==2.2.1
+requests
 requests-oauthlib==0.4.2
+scikit-learn
 selenium==2.44.0
 service-identity==14.0.0
 #sessioninstaller==0.0.0
