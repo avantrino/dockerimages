@@ -22,8 +22,8 @@ django-periodically==0.3.0
 django-polymorphic==0.6.1
 django-pyscss==1.0.6
 django-require==1.0.7
-django-rest-framework-mongoengine==2.0.2
-djangorestframework==3.3.2
+djangorestframework
+django-rest-framework-mongoengine
 django-treebeard==3.0
 djangotoolbox==1.6.2
 dnspython
