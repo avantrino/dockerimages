@@ -25,7 +25,6 @@ RUN apt-get update && apt-get install -y python2.7 python-setuptools build-essen
             		      python-scipy \
             		      python-matplotlib \
             		      python-statsmodels \
-            		      python-sklearn \
             		      python-tables \
             		      mysql-client libmysqlclient-dev \
             		      postgresql-client libpq-dev \
