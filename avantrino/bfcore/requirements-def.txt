@@ -17,6 +17,7 @@ django-filer==0.9.9
 django-filter
 django-jsonfield==0.9.15
 django-mptt==0.6.1
+django-nose
 django-nvd3==0.9.7
 django-periodically==0.3.0
 django-polymorphic==0.6.1
@@ -34,6 +35,7 @@ ecdsa==0.11
 enum34==1.1.2
 env-excavator==1.2.0
 eventlet
+factory_boy
 filebrowser-safe==0.3.8
 freetype-py
 future==0.9.0
