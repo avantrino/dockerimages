@@ -4,7 +4,7 @@ pexpect==3.1
 phonenumbers==7.0.2
 piston-mini-client==0.7.5
 psutil==1.2.1
-py==1.4.26
+py==1.4.30
 py2-ipaddress
 pyinotify
 pyopenssl==0.13
