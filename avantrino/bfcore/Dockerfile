@@ -32,7 +32,7 @@ RUN apt-get update && apt-get install -y python2.7 python-setuptools build-essen
             		      sqlite3 \
             		      gcc \
             		      python-mysqldb \
-            		      rsync snmp strace lsof pstack \
+            		      rsync snmp strace ltrace lsof pstack \
                       --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
 #Install latest version of pip  
