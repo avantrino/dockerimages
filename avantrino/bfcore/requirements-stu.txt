@@ -1,6 +1,8 @@
+scapy
 selenium==2.44.0
 service-identity==14.0.0
 setuptools-git==1.0b1
+sh
 simplejson==3.3.1
 six==1.5.2
 sklearn

@@ -1,6 +1,7 @@
 mock==1.0.1
 mongoengine==0.10.5
 mysqlclient
+netaddr
 nose
 ndg-httpsclient
 numexpr==2.2.2
