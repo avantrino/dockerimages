@@ -1,4 +1,5 @@
 gevent
+GitPython
 google-api-python-client==1.2
 grappelli-safe==0.3.13
 greenlet==0.4.5
