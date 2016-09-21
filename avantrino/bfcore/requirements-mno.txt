@@ -5,6 +5,7 @@ netaddr
 nose
 ndg-httpsclient
 numexpr==2.2.2
+nltk
 oauth2client==1.2
 oauthlib==0.6.1
 openpyxl==1.7.0
