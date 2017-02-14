@@ -26,7 +26,6 @@ RUN apt-get update && apt-get install -y python2.7 python-setuptools build-essen
             		      python-matplotlib \
             		      python-statsmodels \
             		      python-tables \
-                              redis-tools \
             		      mysql-client libmysqlclient-dev \
             		      postgresql-client libpq-dev \
             		      mongodb-org-shell mongodb-org-tools \
