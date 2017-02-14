@@ -1,7 +1,7 @@
 paramiko==1.15.2
 patsy==0.2.1
 pexpect==3.1
-phonenumbers==7.0.2
+##phonenumbers==7.0.2
 piston-mini-client==0.7.5
 psutil
 py==1.4.30
@@ -29,8 +29,8 @@ pysnmp==4.3.2
 python-ctags==1.0.5
 python-dateutil==1.5
 python-debian
-python-nvd3==0.14.2
-python-slugify==1.1.4
+##python-nvd3==0.14.2
+##python-slugify==1.1.4
 pytz==2014.10
 pyxdg==0.25
 queuelib==1.2.2
