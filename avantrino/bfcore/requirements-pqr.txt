@@ -19,7 +19,7 @@ pymongo==2.8
 pymysql
 pytest
 pytest-django
-pyparsing==2.0.1
+pyparsing
 pyserial==2.6
 #pysmbc==1.0.14.1
 #pysnmp==4.3.1
