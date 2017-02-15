@@ -25,8 +25,8 @@ RUN apt-get update && apt-get install -y python2.7 python-setuptools build-essen
             		      python-scipy \
             		      python-matplotlib \
             		      python-statsmodels \
-            		      python-tables \
-                              redis-tools \
+                      python-tables \
+                      redis-tools \
             		      mysql-client libmysqlclient-dev \
             		      postgresql-client libpq-dev \
             		      mongodb-org-shell mongodb-org-tools \
@@ -37,7 +37,7 @@ RUN apt-get update && apt-get install -y python2.7 python-setuptools build-essen
                       --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
 #Install latest version of pip  
-RUN easy_install pip setuptools
+RUN easy_install --upgrade pip setuptools
 
 #Copy Python dependencies, Note that any PATH is relative to Context Directory
 #Install Python dependencies, Note that any PATH is relative to WORKDIR
