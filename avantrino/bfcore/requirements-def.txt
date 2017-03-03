@@ -7,7 +7,7 @@ dill==0.2.4
 ##django-appconf==1.0.1
 django-argonauts==1.0.1
 ##django-bower==5.0.2
-django-celery==3.1.23
+django-celery==3.2.1
 django-compressor==1.4
 ##django-crispy-forms==1.5.2
 ##django-debug-toolbar==1.2.2
