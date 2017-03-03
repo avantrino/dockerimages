@@ -5,7 +5,7 @@ backports.ssl-match-hostname==3.5.0.1
 ##beautifulsoup4==4.2.1
 billiard==3.3.0.22
 blinker==1.4
-celery==3.1.19
+celery==3.1.23
 ##certifi==14.05.14
 ##characteristic==14.3.0
 ##chardet==2.3.0
