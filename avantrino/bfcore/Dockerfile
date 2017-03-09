@@ -21,10 +21,10 @@ RUN apt-get update && apt-get install -y build-essential cython cython3 gcc gfor
                         libcurl4-gnutls-dev libffi-dev libmysqlclient-dev libpq-dev librtmp-dev libssl-dev libxml2-dev \
                         libxslt1-dev lsof ltrace mongodb-org-shell mongodb-org-tools mysql-client openssh-server p7zip-full \
                         postgresql-client pstack \
+                        python3.5 python3.5-dev python3-distribute python3-matplotlib python3-mysqldb python3-numpy python3-pandas \
+                        python3-scipy python3-setuptools python3-statsmodels python3-tables \
                         python2.7 python-dev python-distribute python-matplotlib python-mysqldb python-numpy python-pandas \
                         python-scipy python-setuptools python-statsmodels python-tables \
-                        python3.5 python3.5-dev python3.5-distribute python3.5-matplotlib python3.5-mysqldb python3.5-numpy python3.5-pandas \
-                        python3.5-scipy python3.5-setuptools python3.5-statsmodels python3.5-tables \
                         redis-tools rsync snmp sqlite3 sshpass strace unzip valgrind \
                         --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
