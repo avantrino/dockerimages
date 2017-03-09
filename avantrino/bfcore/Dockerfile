@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:trusty
 
 MAINTAINER  bluefish-team
 
@@ -10,7 +10,7 @@ WORKDIR /mybluefish
 
 #Update the mongodb3.4 repo details and respective public key
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
-RUN echo "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse" > /etc/apt/sources.list.d/mongodb-org-3.4.list
+RUN echo "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse" > /etc/apt/sources.list.d/mongodb-org-3.4.list
 
 #Updates the repository packages list and Install required dependencies
 #Install Python dependencies
@@ -21,17 +21,12 @@ RUN apt-get update && apt-get install -y build-essential cython cython3 gcc gfor
                         libcurl4-gnutls-dev libffi-dev libmysqlclient-dev libpq-dev librtmp-dev libssl-dev libxml2-dev \
                         libxslt1-dev lsof ltrace mongodb-org-shell mongodb-org-tools mysql-client openssh-server p7zip-full \
                         postgresql-client pstack \
-                        python3.5 python3.5-dev python3-matplotlib python3-mysqldb python3-numpy python3-pandas \
-                        python3-scipy python3-setuptools python3-tables \
                         python2.7 python-dev python-distribute python-matplotlib python-mysqldb python-numpy python-pandas \
                         python-scipy python-setuptools python-statsmodels python-tables \
                         redis-tools rsync snmp sqlite3 sshpass strace unzip valgrind \
                         --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
 #Install latest version of pip  
-RUN easy_install3 -U pip
-RUN easy_install3 -U statsmodels
-RUN pip3 install -U setuptools
 RUN easy_install -U pip
 RUN easy_install -U statsmodels
 RUN pip install -U setuptools
@@ -47,15 +42,6 @@ ADD requirements-mno.txt /mybluefish/requirements-mno.txt
 ADD requirements-pqr.txt /mybluefish/requirements-pqr.txt
 ADD requirements-stu.txt /mybluefish/requirements-stu.txt
 ADD requirements-vwxyz.txt /mybluefish/requirements-vwxyz.txt
-RUN pip3 install -r requirements-caps.txt
-RUN pip3 install -r requirements-abc.txt
-RUN pip3 install -r requirements-def.txt
-RUN pip3 install -r requirements-ghi.txt
-RUN pip3 install -r requirements-jkl.txt
-RUN pip3 install -r requirements-mno.txt
-RUN pip3 install -r requirements-pqr.txt
-RUN pip3 install -r requirements-stu.txt
-RUN pip3 install -r requirements-vwxyz.txt
 RUN pip install -r requirements-caps.txt
 RUN pip install -r requirements-abc.txt
 RUN pip install -r requirements-def.txt

@@ -1,5 +1,5 @@
 joblib==0.7.1
 jsonschema==2.5.1
-kombu==3.0.32
+kombu==4.0.2
 lockfile==0.8
 lxml==3.3.3
