@@ -29,9 +29,11 @@ RUN apt-get update && apt-get install -y build-essential cython cython3 gcc gfor
                         --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
 #Install latest version of pip  
-RUN easy_install3 -U pip statsmodels
-RUN easy_install -U pip statsmodels
+RUN easy_install3 -U pip
+RUN easy_install3 -U statsmodels
 RUN pip3 install -U setuptools
+RUN easy_install -U pip
+RUN easy_install -U statsmodels
 RUN pip install -U setuptools
 
 #Copy Python dependencies, Note that any PATH is relative to Context Directory
