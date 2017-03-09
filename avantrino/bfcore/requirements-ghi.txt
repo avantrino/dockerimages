@@ -1,10 +1,8 @@
 gevent
 GitPython
 google-api-python-client==1.2
-##grappelli-safe==0.3.13
 greenlet==0.4.5
 gunicorn==19.3.0
-#gyp
 hmmlearn
 html2text==2015.2.18
 html5lib==0.999

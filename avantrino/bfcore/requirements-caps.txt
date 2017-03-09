@@ -6,6 +6,4 @@ PAM
 Pillow==2.3.0
 PyMySQL==0.6.7
 PyYAML==3.11
-#Twisted-Core==13.2.0
-#Twisted-Web==13.2.0
 Unidecode==0.04.18
