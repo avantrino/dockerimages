@@ -1,3 +1,4 @@
+memory_profiler
 mock==1.0.1
 mongoengine==0.10.5
 mysqlclient
@@ -9,5 +10,6 @@ numexpr==2.2.2
 nltk
 oauth2client==1.2
 oauthlib==0.6.1
+objgraph
 openpyxl==1.7.0
 ordereddict
