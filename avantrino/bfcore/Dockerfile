@@ -17,10 +17,10 @@ RUN echo "deb [ arch=amd64 ] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-o
 #Install Other dependencies
 #Install Python Pandas
 #Install Database related dependencies
-RUN apt-get update && apt-get install -y build-essential cython cython3 gcc gfortran lib32z1-dev libatlas-base-dev libcups2-dev \
-                        libcurl4-gnutls-dev libffi-dev libmysqlclient-dev libpq-dev librtmp-dev libssl-dev libxml2-dev \
-                        libxslt1-dev lsof ltrace mongodb-org-shell mongodb-org-tools mysql-client openssh-server p7zip-full \
-                        postgresql-client pstack \
+RUN apt-get update && apt-get install -y atop build-essential cython cython3 gcc git gfortran lib32z1-dev libatlas-base-dev \
+                        libcups2-dev libcurl4-gnutls-dev libffi-dev libmysqlclient-dev libpq-dev librtmp-dev libssl-dev \
+                        libxml2-dev libxslt1-dev lsof ltrace mongodb-org-shell mongodb-org-tools mysql-client \
+                        openssh-server p7zip-full postgresql-client pstack \
                         python2.7 python-dev python-distribute python-matplotlib python-mysqldb python-numpy python-pandas \
                         python-scipy python-setuptools python-statsmodels python-tables \
                         redis-tools rsync snmp sqlite3 sshpass strace unzip valgrind \
