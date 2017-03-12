@@ -30,6 +30,7 @@ RUN apt-get update && apt-get install -y build-essential cython cython3 gcc gfor
 RUN easy_install -U pip
 RUN easy_install -U statsmodels
 RUN pip install -U setuptools
+RUN pip install -U git+http://github.com/Eugeny/celery#egg=celery==4.0.2.1
 
 #Copy Python dependencies, Note that any PATH is relative to Context Directory
 #Install Python dependencies, Note that any PATH is relative to WORKDIR
