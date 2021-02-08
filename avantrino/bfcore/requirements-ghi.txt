@@ -7,4 +7,4 @@ hmmlearn
 html2text==2015.2.18
 html5lib==0.999
 httpie
-httplib2==0.8
+httplib2==0.19.0
