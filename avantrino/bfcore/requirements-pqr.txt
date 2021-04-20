@@ -3,7 +3,7 @@ patsy==0.2.1
 pexpect==3.1
 piston-mini-client==0.7.5
 psutil
-py==1.4.30
+py==1.10.0
 py2-ipaddress
 pyinotify
 pyopenssl
