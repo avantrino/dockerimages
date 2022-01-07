@@ -5,4 +5,4 @@ backports.ssl-match-hostname==3.5.0.1
 billiard==3.5.0.2
 blinker==1.4
 #celery==4.0.2
-cvxopt==1.1.8
+cvxopt==1.2.7
