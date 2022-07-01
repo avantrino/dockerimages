@@ -11,5 +11,5 @@ nltk
 oauth2client==1.2
 oauthlib==0.6.1
 objgraph
-openpyxl==1.7.0
+openpyxl==2.4.2
 ordereddict
