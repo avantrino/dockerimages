@@ -1,7 +1,7 @@
 defer==1.0.4
 dill==0.2.4
 django-celery-beat==1.0.1
-django-celery-results==1.0.1
+django-celery-results==2.4.0
 django-argonauts==1.0.1
 django-compressor==1.4
 django-endless-pagination==2.0
