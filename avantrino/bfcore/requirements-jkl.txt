@@ -1,4 +1,4 @@
-joblib==0.7.1
+joblib==1.2.0
 jsonschema==2.5.1
 kombu==4.0.2
 line_profiler
